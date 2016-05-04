@@ -1,0 +1,12 @@
+#uppercase
+puts "this will be printed all uppercase.".upcase
+#capitalize
+puts "this will capitalize initial letter.".capitalize
+#add strings together
+puts "hello " + "world" + "!" + " 525252"
+#print string "x" times
+puts "hello "*2
+#reverse strings
+puts "hello this will be printed as reversed".reverse
+#chain methods together
+puts "hello this will be printed as reversed".reverse.upcase
