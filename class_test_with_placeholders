@@ -1,21 +1,22 @@
-class Animal
-    attr_accessor :name, :age
-end
-
-class Dog < Animal
-    def talk
-        puts "hey my name is #{name} and I am #{age} years old."
+    class Animal
+        attr_accessor :name, :age #defining attributes
     end
-end
 
-class Cat < Dog
-end
+    class Dog < Animal  #dog class now inherits from animal class
+        def talk    #defining a method
+            #here the place older will be filled later
+            puts "hey my name is #{name} and I am #{age} years old."
+        end
+    end
 
-doggy = Dog.new
-kitty = Cat.new
+    class Cat < Dog     #cat now inherits from dog which inherits from animal
+    end
 
-doggy.name, doggy.age = "Charlie", 5
-kitty.name, kitty.age = "Princess", 2
+    doggy = Dog.new     #creating a dog object
+    kitty = Cat.new     #creating a cat object
 
-doggy.talk
-kitty.talk
+    doggy.name, doggy.age = "Charlie", 5    #giving their attributes and
+    kitty.name, kitty.age = "Princess", 2   #they will will placeholders
+
+    doggy.talk      #calling
+    kitty.talk      #methods
