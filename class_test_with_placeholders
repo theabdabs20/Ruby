@@ -1,0 +1,21 @@
+class Animal
+    attr_accessor :name, :age
+end
+
+class Dog < Animal
+    def talk
+        puts "hey my name is #{name} and I am #{age} years old."
+    end
+end
+
+class Cat < Dog
+end
+
+doggy = Dog.new
+kitty = Cat.new
+
+doggy.name, doggy.age = "Charlie", 5
+kitty.name, kitty.age = "Princess", 2
+
+doggy.talk
+kitty.talk
