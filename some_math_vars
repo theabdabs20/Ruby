@@ -1,0 +1,36 @@
+a = 10 #define "a" variable
+b = 20 #define "b" variable
+c = 12 #define "c" variable
+#you can define as much variables as you want
+puts a+b+c+22 #you can add variables together which are assigned to an integer.
+              #you can also add a non-defined integer to your operation.
+
+puts a*b+c+10 #this will multiply a(10) and b(20) and add c(12) and "10" to it.
+
+q = a+b+c     #"q" variable is now equal to a+b+c
+puts q        #prints the value of "q" to the screen
+z = q+ 5      #"z" variable is now equal to q + 5 which is a+b+c+5
+puts z        #prints the value of "z" to the screen
+
+
+k = 2         #"k" variable is now equal to "2"
+puts k
+k = k+100     #"k" variable is now equal to k+100 which is 102
+puts k        #value of "k" is overridden.
+#for shorther version you can simple puts
+j = 10        #define "j" variable
+puts j        #print "j" variable
+j += 8        #add 8 to j variable
+puts j        #print the new value of "j"
+
+####### j = j+8     ======       j += 8 #######
+
+n = 1         #define "n" variable
+puts n        #prints n value to the screen
+n += 1        #added 1 to the value of "n" each time n= 2
+n += 1        #added 1 to the value of "n" each time n= 3
+n += 1        #added 1 to the value of "n" each time n= 4
+n += 1        #added 1 to the value of "n" each time n= 5
+puts n        #prints the new value of "n"//// will print 5
+
+#######         these work with every operator         ######
