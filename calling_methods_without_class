@@ -1,0 +1,9 @@
+def saysomething
+    puts "hello hello this is a test"
+end
+def give_a_number
+    puts "5"
+end
+saysomething # This will
+             # =>       call
+give_a_number# =>             function.
